@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Sep  7 15:10:35 2017
+# Process ID: 10400
+# Current directory: D:/demo_AX7103/24_ad9226_test/ad9226_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6772 D:\demo_AX7103\24_ad9226_test\ad9226_test\ad9226_test.xpr
+# Log file: D:/demo_AX7103/24_ad9226_test/ad9226_test/vivado.log
+# Journal file: D:/demo_AX7103/24_ad9226_test/ad9226_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.xpr
+INFO: [Project 1-313] Project file moved from 'Y:/project/AX/AX7102/CD/02_demo/24_ad9226_test/ad9226_test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (6.0)' for IP 'ila_0' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'PLL' is locked:
+* IP definition 'Clocking Wizard (5.2)' for IP 'PLL' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Project 1-230] Project 'ad9226_test.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 868.734 ; gain = 110.262
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset PLL -vlnv xilinx.com:ip:clk_wiz:5.4 [get_ips  PLL] -log ip_upgrade.log
+Upgrading 'PLL'
+INFO: [Project 1-386] Moving file 'D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci' from fileset 'PLL' to fileset 'sources_1'.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '5.000' to '5.0' has been ignored for IP 'PLL'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKIN2_PERIOD' from '10.000' to '10.0' has been ignored for IP 'PLL'
+WARNING: [IP_Flow 19-3501] Upgraded PLL from Clocking Wizard 5.2 to Clocking Wizard 5.4, with warnings. Please review the message log.
+WARNING: [IP_Flow 19-4707] Upgraded port order differs after port 'reset'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'PLL'. These changes may impact your design.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'PLL'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'PLL' has identified issues that may require user intervention. Please review the upgrade log 'd:/demo_AX7103/24_ad9226_test/ad9226_test/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/demo_AX7103/24_ad9226_test/ad9226_test/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips PLL] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+upgrade_ip -srcset ila_0 -vlnv xilinx.com:ip:ila:6.2 [get_ips  ila_0] -log ip_upgrade.log
+Upgrading 'ila_0'
+INFO: [Project 1-386] Moving file 'D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/ila_0/ila_0.xci' from fileset 'ila_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-1972] Upgraded ila_0 from ILA (Integrated Logic Analyzer) 6.0 to ILA (Integrated Logic Analyzer) 6.2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/demo_AX7103/24_ad9226_test/ad9226_test/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1068.734 ; gain = 55.910
+export_ip_user_files -of_objects [get_ips ila_0] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+remove_files  D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci
+file delete -force D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL
+file delete -force D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.ip_user_files/ip/PLL
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 5.4 -module_name clk_wiz_0 -dir d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip
+set_property -dict [list CONFIG.PRIM_IN_FREQ {200.000} CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {65} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {50} CONFIG.CLKIN1_JITTER_PS {50.0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {6.500} CONFIG.MMCM_CLKIN1_PERIOD {5.000} CONFIG.MMCM_CLKIN2_PERIOD {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.000} CONFIG.MMCM_CLKOUT1_DIVIDE {26} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT1_JITTER {110.717} CONFIG.CLKOUT1_PHASE_ERROR {78.820} CONFIG.CLKOUT2_JITTER {116.595} CONFIG.CLKOUT2_PHASE_ERROR {78.820}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+update_compile_order -fileset sources_1
+remove_files  d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+file delete -force d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/clk_wiz_0
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 5.4 -module_name PLL -dir d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip
+set_property -dict [list CONFIG.PRIM_IN_FREQ {200} CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {65} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {50} CONFIG.CLKIN1_JITTER_PS {50.0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {6.500} CONFIG.MMCM_CLKIN1_PERIOD {5.000} CONFIG.MMCM_CLKIN2_PERIOD {10.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {20.000} CONFIG.MMCM_CLKOUT1_DIVIDE {26} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT1_JITTER {110.717} CONFIG.CLKOUT1_PHASE_ERROR {78.820} CONFIG.CLKOUT2_JITTER {116.595} CONFIG.CLKOUT2_PHASE_ERROR {78.820}] [get_ips PLL]
+generate_target {instantiation_template} [get_files d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'PLL'...
+generate_target all [get_files  d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'PLL'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'PLL'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'PLL'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'PLL'...
+export_ip_user_files -of_objects [get_files d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci]
+launch_runs -jobs 4 PLL_synth_1
+[Thu Sep  7 15:16:05 2017] Launched PLL_synth_1...
+Run output will be captured here: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/PLL_synth_1/runme.log
+export_simulation -of_objects [get_files d:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/PLL/PLL.xci] -directory D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.ip_user_files/sim_scripts -ip_user_files_dir D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.ip_user_files -ipstatic_source_dir D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.cache/compile_simlib/modelsim} {questa=D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.cache/compile_simlib/questa} {riviera=D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.cache/compile_simlib/riviera} {activehdl=D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+[Thu Sep  7 15:52:37 2017] Launched ila_0_synth_1, synth_1...
+Run output will be captured here:
+ila_0_synth_1: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/ila_0_synth_1/runme.log
+synth_1: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/synth_1/runme.log
+[Thu Sep  7 15:52:37 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Sep  7 15:58:28 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/runme.log
+report_ip_status -name ip_status 
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Thu Sep  7 16:25:08 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Sep  7 16:27:37 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249854706
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210249854706.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249854706
+set_property PROGRAM.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/ad9226_test.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/ad9226_test.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/ad9226_test.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/ad9226_test.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.runs/impl_1/ad9226_test.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Sep-07 16:32:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Sep-07 16:32:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Sep-07 16:35:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Sep-07 16:35:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Sep-07 16:36:13
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Sep-07 16:36:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/24_ad9226_test/ad9226_test/ad9226_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210249854706
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  7 16:45:30 2017...

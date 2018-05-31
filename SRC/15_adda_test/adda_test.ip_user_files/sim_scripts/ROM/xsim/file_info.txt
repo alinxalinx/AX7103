@@ -1,0 +1,2 @@
+ROM.v,verilog,xil_defaultlib,../../../../adda_test.srcs/sources_1/ip/ROM/sim/ROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Sep  6 18:29:40 2017
+# Process ID: 9612
+# Current directory: D:/demo_AX7103/23_adda_test/adda_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9852 D:\demo_AX7103\23_adda_test\adda_test\adda_test.xpr
+# Log file: D:/demo_AX7103/23_adda_test/adda_test/vivado.log
+# Journal file: D:/demo_AX7103/23_adda_test/adda_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/demo_AX7103/23_adda_test/adda_test/adda_test.xpr
+INFO: [Project 1-313] Project file moved from 'Y:/project/AX/AX7103/CD/02_demo/23_adda_test/adda_test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'PLL' is locked:
+* IP definition 'Clocking Wizard (5.2)' for IP 'PLL' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (6.0)' for IP 'ila_0' (customized with software release 2015.4) has a newer minor version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'ROM' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'ROM' (customized with software release 2015.4) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Project 1-230] Project 'adda_test.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 929.262 ; gain = 170.621
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+reset_run synth_1
+upgrade_ip -srcset ROM [get_ips  {ROM PLL ila_0}] -log ip_upgrade.log
+Upgrading 'PLL'
+INFO: [Project 1-386] Moving file 'D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/PLL/PLL.xci' from fileset 'PLL' to fileset 'sources_1'.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '5.000' to '5.0' has been ignored for IP 'PLL'
+WARNING: [IP_Flow 19-3501] Upgraded PLL from Clocking Wizard 5.2 to Clocking Wizard 5.4, with warnings. Please review the message log.
+WARNING: [IP_Flow 19-4707] Upgraded port order differs after port 'reset'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'PLL'. These changes may impact your design.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'PLL'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'PLL' has identified issues that may require user intervention. Please review the upgrade log 'd:/demo_AX7103/23_adda_test/adda_test/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Upgrading 'ROM'
+INFO: [Project 1-386] Moving file 'D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ROM/ROM.xci' from fileset 'ROM' to fileset 'sources_1'.
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [IP_Flow 19-3420] Updated ROM to use current project options
+WARNING: [IP_Flow 19-4699] Upgrade has removed interface 'BRAM_PORTB'
+WARNING: [IP_Flow 19-3670] Detected external interface differences while upgrading 'ROM'.
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM'...
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'ROM' has identified issues that may require user intervention. Please review the upgrade log 'd:/demo_AX7103/23_adda_test/adda_test/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Upgrading 'ila_0'
+INFO: [Project 1-386] Moving file 'D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ila_0/ila_0.xci' from fileset 'ila_0' to fileset 'sources_1'.
+INFO: [IP_Flow 19-1972] Upgraded ila_0 from ILA (Integrated Logic Analyzer) 6.0 to ILA (Integrated Logic Analyzer) 6.2
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/demo_AX7103/23_adda_test/adda_test/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:42 ; elapsed = 00:00:37 . Memory (MB): peak = 1158.523 ; gain = 219.488
+export_ip_user_files -of_objects [get_ips {ROM PLL ila_0}] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sin512.coe}] [get_ips ROM]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sin512.coe' provided. It will be converted relative to IP Instance files '../../../sin512.coe'
+generate_target all [get_files  D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ROM/ROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'ROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM'...
+export_ip_user_files -of_objects [get_files D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ROM/ROM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ROM/ROM.xci]
+launch_runs -jobs 4 ROM_synth_1
+[Wed Sep  6 18:34:27 2017] Launched ROM_synth_1...
+Run output will be captured here: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/ROM_synth_1/runme.log
+export_simulation -of_objects [get_files D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ROM/ROM.xci] -directory D:/demo_AX7103/23_adda_test/adda_test/adda_test.ip_user_files/sim_scripts -ip_user_files_dir D:/demo_AX7103/23_adda_test/adda_test/adda_test.ip_user_files -ipstatic_source_dir D:/demo_AX7103/23_adda_test/adda_test/adda_test.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/demo_AX7103/23_adda_test/adda_test/adda_test.cache/compile_simlib/modelsim} {questa=D:/demo_AX7103/23_adda_test/adda_test/adda_test.cache/compile_simlib/questa} {riviera=D:/demo_AX7103/23_adda_test/adda_test/adda_test.cache/compile_simlib/riviera} {activehdl=D:/demo_AX7103/23_adda_test/adda_test/adda_test.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -jobs 4
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'PLL'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'PLL'...
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'PLL'. Target already exists and is up to date.
+[Wed Sep  6 18:34:41 2017] Launched ROM_synth_1, PLL_synth_1, ila_0_synth_1, synth_1...
+Run output will be captured here:
+ROM_synth_1: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/ROM_synth_1/runme.log
+PLL_synth_1: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/PLL_synth_1/runme.log
+ila_0_synth_1: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/ila_0_synth_1/runme.log
+synth_1: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/synth_1/runme.log
+[Wed Sep  6 18:34:42 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 103 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'PLL_inst/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/.Xil/Vivado-10592-ALINX000008-PC/dcp9/PLL.edf:317]
+Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test_board.xdc]
+Finished Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test_board.xdc]
+Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/PLL/PLL.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [D:/demo_AX7103/23_adda_test/adda_test/adda_test.srcs/sources_1/ip/PLL/PLL.xdc:57]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1929.551 ; gain = 511.215
+Finished Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test_early.xdc]
+Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test.xdc]
+Finished Parsing XDC File [D:/demo_AX7103/23_adda_test/adda_test/.Xil/Vivado-9612-ALINX000008-PC/dcp1/adda_test.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 1933.559 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 1933.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 42 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 36 instances
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2035.070 ; gain = 708.277
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249854706
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a100t_0] 0] [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a100t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a100t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a100t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a100t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a100t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+close_hw
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+set_property needs_refresh false [get_runs ROM_synth_1]
+set_property needs_refresh false [get_runs ROM_impl_1]
+set_property needs_refresh false [get_runs PLL_synth_1]
+set_property needs_refresh false [get_runs PLL_impl_1]
+set_property needs_refresh false [get_runs ila_0_synth_1]
+set_property needs_refresh false [get_runs ila_0_impl_1]
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Wed Sep  6 19:02:42 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Sep  6 19:05:19 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.2
+  **** Build date : Jun 15 2017-18:53:26
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249854706
+set_property PROGRAM.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/adda_test.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/demo_AX7103/23_adda_test/adda_test/adda_test.runs/impl_1/adda_test.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/23_adda_test/adda_test/adda_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2017-Sep-06 19:06:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2017-Sep-06 19:06:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/demo_AX7103/23_adda_test/adda_test/adda_test.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {D:/demo_AX7103/23_adda_test/adda_test/adda_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {D:/demo_AX7103/23_adda_test/adda_test/adda_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep  6 19:09:17 2017...

@@ -1,0 +1,4 @@
+verilog xil_defaultlib "../../../../ov5642_ddr3_lcd.srcs/sources_1/ip/pll_1/pll_clk_wiz.v" --include "../../../ipstatic"
+verilog xil_defaultlib "../../../../ov5642_ddr3_lcd.srcs/sources_1/ip/pll_1/pll.v" --include "../../../ipstatic"
+verilog xil_defaultlib "glbl.v"
+nosort

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="E:/15_ethernet_100/ethernet_test/ethernet_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="4">
+	</WVObjectSize>
+	<wvobject fp_name="e_rxdv_IBUF" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">e_rxdv_IBUF</obj_property>
+		<obj_property name="ObjectShortName">e_rxdv_IBUF</obj_property>
+	</wvobject>
+	<wvobject fp_name="e_rxd_IBUF" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">e_rxd_IBUF[3:0]</obj_property>
+		<obj_property name="ObjectShortName">e_rxd_IBUF[3:0]</obj_property>
+	</wvobject>
+	<wvobject fp_name="e_txen_OBUF" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">e_txen_OBUF</obj_property>
+		<obj_property name="ObjectShortName">e_txen_OBUF</obj_property>
+	</wvobject>
+	<wvobject fp_name="e_txd_OBUF" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">e_txd_OBUF[3:0]</obj_property>
+		<obj_property name="ObjectShortName">e_txd_OBUF[3:0]</obj_property>
+	</wvobject>
+</wave_config>
+
