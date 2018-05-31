@@ -1,0 +1,114 @@
+Wireshark抓包工具使用教程以及常用抓包规则
+http://fangxin.blog.51cto.com/1125131/735178
+
+Wireshark 主界面的操作菜单
+File  打开文件
+    Open           打开文件
+    Open Recent    打开近期访问过的文件
+    Merge…        将几个文件合并为一个文件
+    Close          关闭此文件
+    Save As…      保存为…
+    File Set       文件属性
+    Export         文件输出
+    Print…        打印输出
+    Quit           关闭
+Edit  编辑
+    Find Packet…   搜索数据包
+    Find Next       搜索下一个
+    Find Previous   搜索前一个
+    Mark Packet (toggle)  对数据包做标记（标定）
+    Find Next Mark        搜索下一个标记的包
+    Find Previous Mark     搜索前一个标记的包
+    Mark All Packets       对所有包做标记
+    Unmark All Packets     去除所有包的标记
+    Set Time Reference (toggle) 设置参考时间 （标定）
+    Find Next Reference         搜索下一个参考点
+    Find Previous Reference     搜索前一个参考点
+    Preferences                 参数选择
+View 视图
+    Main Toolbar       主工具栏
+    Filter Toolbar     过滤器工具栏
+    Wireless Toolbar   无线工具栏
+    Statusbar          运行状况工具栏
+    Packet List        数据包列表
+    Packet Details     数据包细节
+    Packet Bytes       数据包字节
+    Time Display Format        时间显示格式
+    Name resolution    名字解析（转换：域名/IP地址，厂商名/MAC地址，端口号/端口名）
+    Colorize Packet List        颜色标识的数据包列表
+    Auto Scroll in Live Capture 现场捕获时实时滚动
+    Zoom In                     放大显示
+    Zoom Out                    缩小显示
+    Normal Size                 正常大小
+    Resize All Columns          改变所有列大小
+    Expand Sub trees            扩展开数据包内封装协议的子树结构
+    Expand All                  全部扩展开
+    Collapse All                全部折叠收缩
+    Coloring Rules…            对不同类型的数据包用不同颜色标识的规则
+    Show Packet in New Window   将数据包显示在一个新的窗口
+    Reload                      将数据文件重新加
+Go  运行
+    Back                        向后运行
+    Forward                     向前运行
+    Go to packet…              转移到某数据包
+    Go to Corresponding Packet  转到相应的数据包
+    Previous Packet             前一个数据包
+    Next Packet                 下一个数据包
+    First Packet                第一个数据包
+    Last Packet                 最后一个数据包
+Capture 捕获网络数据
+    Interfaces…                选择本机的网络接口进行数据捕获
+    Options…                   捕获参数选择
+    Start                       开始捕获网络数据
+    Stop                        停止捕获网络数据
+    Restart                     重新开始捕获
+    Capture Filters…           选择捕获过滤器
+Analyze 对已捕获的网络数据进行分析
+    Display Filters…           选择显示过滤器
+    Apply as Filter             将其应用为过滤器
+    Prepare a Filter            设计一个过滤器
+    Firewall ACL Rules          防火墙ACL规则
+    Enabled Protocols…         已可以分析的协议列表
+    Decode As…                 将网络数据按某协议规则解码
+    User Specified Decodes…    用户自定义的解码规则
+    Follow TCP Stream  跟踪TCP传输控制协议的通信数据段，将分散传输的数据组装还原
+    Follow SSL stream           跟踪SSL 安全套接层协议的通信数据流
+    Expert Info                 专家分析信息
+    Expert Info Composite       构造专家分析信息
+Statistics对已捕获的网络数据进行统计分析
+    Summary                     已捕获数据文件的总统计概况
+    Protocol Hierarchy          数据中的协议类型和层次结构
+    Conversations               会话
+    Endpoints                   定义统计分析的结束点
+    IO Graphs                   输入/输出数据流量图
+    Conversation List           会话列表
+    Endpoint List               统计分析结束点的列表
+    Service Response Time       从客户端发出请求至收到服务器响应的时间间隔
+    ANSI                        按照美国国家标准协会的ANSI协议分析
+    Fax T38 Analysis...         按照T38传真规范进行分析
+    GSM                         全球移动通信系统GSM的数据
+    H.225                       H.225协议的数据
+    MTP3                        MTP3协议的数据
+    RTP                         实时传输协议RTP的数据
+    SCTP                        数据流控制传输协议SCTP的数据
+    SIP...                      会话初始化协议SIP的数据
+    VoIP Calls                  互联网IP电话的数据
+    WAP-WSP                     无线应用协议WAP和WSP的数据
+    BOOTP-DHCP                  引导协议和动态主机配置协议的数据
+    Destinations…              通信目的端
+    Flow Graph…                网络通信流向图
+    HTTP                        超文本传输协议的数据
+    IP address…                互联网IP地址
+    ISUP Messages…             ISUP协议的报文
+    Multicast Streams           多播数据流
+    ONC-RPC Programs 
+    Packet Length               数据包的长度
+    Port Type…                 传输层通信端口类型
+    TCP Stream Graph            传输控制协议TCP数据流波形图
+Help 帮助
+    Contents Wireshark          使用手册
+    Supported Protocols         Wireshark支持的协议清单
+    Manual Pages                使用手册（HTML网页）
+    Wireshark Online            Wireshark 在线
+    About Wireshark             关于Wireshark
+
