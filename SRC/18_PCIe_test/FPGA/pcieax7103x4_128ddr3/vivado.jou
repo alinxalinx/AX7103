@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Sep 13 09:13:00 2017
+# Process ID: 3220
+# Current directory: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3784 D:\demo_AX7103\18_PCIE_test\FPGA\pcieax7103x4_128ddr3\PCIe.xpr
+# Log file: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/vivado.log
+# Journal file: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

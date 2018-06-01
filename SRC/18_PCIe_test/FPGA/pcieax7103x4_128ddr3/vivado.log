@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Sep 13 09:13:00 2017
+# Process ID: 3220
+# Current directory: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3784 D:\demo_AX7103\18_PCIE_test\FPGA\pcieax7103x4_128ddr3\PCIe.xpr
+# Log file: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/vivado.log
+# Journal file: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.xpr
+INFO: [Project 1-313] Project file moved from 'D:/exam_pcie_xilinx/pcieax7103x4_128ddr3£¨BMPSP£©' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_util_ds_buf_0_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_xdma_0_1' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_mig_7series_0_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_mig_7series_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_rst_mig_7series_0_100M_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_auto_us_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_us_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_auto_cc_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/stats.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 930.992 ; gain = 254.820
+update_compile_order -fileset sources_1
+close_project
+open_project D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_util_ds_buf_0_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_xdma_0_1' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_mig_7series_0_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_mig_7series_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_rst_mig_7series_0_100M_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_auto_us_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_us_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PCIe_auto_cc_0' generated file not found 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/stats.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 948.992 ; gain = 18.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Sep 13 09:14:48 2017] Launched synth_1...
+Run output will be captured here: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0.dcp' for cell 'PCIe_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_mig_7series_0_0/PCIe_mig_7series_0_0.dcp' for cell 'PCIe_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/PCIe_rst_mig_7series_0_100M_0.dcp' for cell 'PCIe_i/rst_mig_7series_0_200M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/PCIe_util_ds_buf_0_0.dcp' for cell 'PCIe_i/util_ds_buf_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/PCIe_xdma_0_1.dcp' for cell 'PCIe_i/xdma_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/PCIe_auto_cc_0.dcp' for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_cc'
+INFO: [Project 1-454] Reading design checkpoint 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_us_0/PCIe_auto_us_0.dcp' for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_us'
+INFO: [Netlist 29-17] Analyzing 2284 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/PCIe_util_ds_buf_0_0_board.xdc] for cell 'PCIe_i/util_ds_buf_0/U0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/PCIe_util_ds_buf_0_0_board.xdc] for cell 'PCIe_i/util_ds_buf_0/U0'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip-PCIE_X0Y0.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip-PCIE_X0Y0.xdc:123]
+INFO: [Timing 38-2] Deriving generated clocks [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip-PCIE_X0Y0.xdc:123]
+create_generated_clock: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1975.836 ; gain = 578.477
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip-PCIE_X0Y0.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_3/pcie2_fifo_generator_dma_cpl.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/PCIe_xdma_0_1_axi_stream_intf_i/PCIe_xdma_0_1_rx_demux_i/dma_cpl_fifo_inst/U0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_3/pcie2_fifo_generator_dma_cpl.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/PCIe_xdma_0_1_axi_stream_intf_i/PCIe_xdma_0_1_rx_demux_i/dma_cpl_fifo_inst/U0'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_4/pcie2_fifo_generator_tgt_brdg.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/PCIe_xdma_0_1_axi_stream_intf_i/PCIe_xdma_0_1_rx_demux_i/tgt_brdg_fifo_inst/U0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_4/pcie2_fifo_generator_tgt_brdg.xdc] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/PCIe_xdma_0_1_axi_stream_intf_i/PCIe_xdma_0_1_rx_demux_i/tgt_brdg_fifo_inst/U0'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/PCIe_xdma_0_1_board.xdc] for cell 'PCIe_i/xdma_0/inst'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/PCIe_xdma_0_1_board.xdc] for cell 'PCIe_i/xdma_0/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/source/PCIe_xdma_0_1_pcie3_7vx_ip.xdc] for cell 'PCIe_i/xdma_0/inst'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/source/PCIe_xdma_0_1_pcie3_7vx_ip.xdc] for cell 'PCIe_i/xdma_0/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0_board.xdc] for cell 'PCIe_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0_board.xdc] for cell 'PCIe_i/clk_wiz_0/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0.xdc] for cell 'PCIe_i/clk_wiz_0/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_clk_wiz_0_0/PCIe_clk_wiz_0_0.xdc] for cell 'PCIe_i/clk_wiz_0/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_mig_7series_0_0/PCIe_mig_7series_0_0/user_design/constraints/PCIe_mig_7series_0_0.xdc] for cell 'PCIe_i/mig_7series_0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_mig_7series_0_0/PCIe_mig_7series_0_0/user_design/constraints/PCIe_mig_7series_0_0.xdc] for cell 'PCIe_i/mig_7series_0'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/PCIe_rst_mig_7series_0_100M_0_board.xdc] for cell 'PCIe_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/PCIe_rst_mig_7series_0_100M_0_board.xdc] for cell 'PCIe_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/PCIe_rst_mig_7series_0_100M_0.xdc] for cell 'PCIe_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_rst_mig_7series_0_100M_0/PCIe_rst_mig_7series_0_100M_0.xdc] for cell 'PCIe_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/constrs_1/new/PCIe.xdc]
+WARNING: [Vivado 12-180] No cells matched 'refclk_ibuf'. [D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/constrs_1/new/PCIe.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/constrs_1/new/PCIe.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/constrs_1/new/PCIe.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/PCIe_xdma_0_1.dcp'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_us_0/PCIe_auto_us_0_clocks.xdc] for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_us_0/PCIe_auto_us_0_clocks.xdc] for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/PCIe_auto_cc_0_clocks.xdc] for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_cc/inst'
+INFO: [Timing 38-2] Deriving generated clocks [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/PCIe_auto_cc_0_clocks.xdc:16]
+Finished Parsing XDC File [d:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_cc_0/PCIe_auto_cc_0_clocks.xdc] for cell 'PCIe_i/axi_interconnect_0/s00_couplers/auto_cc/inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/udma_wrapper/dma_top/base/IRQ_INST/usr_irq_xpm_cdc'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/phy_lnk_up_cdc'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/phy_lnk_up_cdc'
+Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/pl_received_hot_rst_cdc'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl] for cell 'PCIe_i/xdma_0/inst/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/pl_received_hot_rst_cdc'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1118 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 48 instances
+  RAM16X1S => RAM32X1S (RAMS32): 13 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 991 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 20 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 9 instances
+
+open_run: Time (s): cpu = 00:01:01 ; elapsed = 00:00:55 . Memory (MB): peak = 1976.961 ; gain = 959.844
+launch_runs impl_1 -jobs 4
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.189 . Memory (MB): peak = 2001.930 ; gain = 0.000
+[Wed Sep 13 09:19:05 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 2001.930 ; gain = 0.000
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Sep 13 09:32:30 2017] Launched impl_1...
+Run output will be captured here: D:/demo_AX7103/18_PCIE_test/FPGA/pcieax7103x4_128ddr3/PCIe.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 13 17:24:01 2017...
