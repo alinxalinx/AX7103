@@ -1,0 +1,68 @@
+
+*** Running vivado
+    with args -log PCIe_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_axi_gpio_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 369.797 ; gain = 80.605
+INFO: [Synth 8-638] synthesizing module 'PCIe_axi_gpio_0_0' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_axi_gpio_0_0/synth/PCIe_axi_gpio_0_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_axi_gpio_0_0' (8#1) [d:/exam_ise/pcieddr3/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_axi_gpio_0_0/synth/PCIe_axi_gpio_0_0.vhd:85]
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 410.480 ; gain = 121.289
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 410.480 ; gain = 121.289
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 718.691 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     5|
+|3     |LUT3 |     5|
+|4     |LUT4 |     3|
+|5     |LUT5 |    15|
+|6     |LUT6 |     7|
+|7     |FDRE |    27|
+|8     |FDSE |     2|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 718.691 ; gain = 429.500
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 718.691 ; gain = 437.266

@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/9/11 19:21:07。
+     1>项目“D:\driver_test\PCIE_SPTEST\PCIE\PCIE.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D KERNEL_64BIT /D WIN64 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\PCIE.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D KERNEL_64BIT /D WIN64 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\PCIE.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt PCIE.cpp PCIEDlg.cpp
+         PCIE.cpp
+         PCIEDlg.cpp
+     1>PCIEDlg.cpp(148): warning C4244: “=”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+     1>PCIEDlg.cpp(168): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+     1>PCIEDlg.cpp(195): warning C4244: “=”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+     1>PCIEDlg.cpp(214): warning C4244: “参数”: 从“ULONGLONG”转换到“LONG”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\driver_test\PCIE_SPTEST\x64\Release\PCIE.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\driver_test\PCIE_SPTEST\Lib\amd64\x86 /LIBPATH:D:\driver_test\PCIE_SPTEST\Lib\amd64 odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\driver_test\PCIE_SPTEST\x64\Release\PCIE.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\driver_test\PCIE_SPTEST\x64\Release\PCIE.lib" /MACHINE:X64 /MACHINE:X64 x64\Release\PCIE.res
+         x64\Release\PCIE.obj
+         x64\Release\PCIEDlg.obj
+         x64\Release\stdafx.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+         PCIE.vcxproj -> D:\driver_test\PCIE_SPTEST\x64\Release\PCIE.exe
+     1>已完成生成项目“D:\driver_test\PCIE_SPTEST\PCIE\PCIE.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.42

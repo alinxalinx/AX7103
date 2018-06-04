@@ -1,0 +1,91 @@
+
+*** Running vivado
+    with args -log PCIe_auto_ds_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_auto_ds_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_auto_ds_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 373.160 ; gain = 85.781
+INFO: [Synth 8-638] synthesizing module 'PCIe_auto_ds_0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_ds_0/synth/PCIe_auto_ds_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14450]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_axi_downsizer' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_b_downsizer' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_b_downsizer' (1#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1251]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_a_downsizer' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen' (20#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo' (21#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_fifo_gen__parameterized0' (21#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_fifo__parameterized0' (21#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_a_downsizer' (22#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_w_downsizer' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_w_downsizer' (23#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2016]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_a_downsizer__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_a_downsizer__parameterized0' (23#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:64]
+INFO: [Synth 8-638] synthesizing module 'axi_dwidth_converter_v2_1_13_r_downsizer' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_r_downsizer' (24#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:1533]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_axi_downsizer' (25#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:2380]
+INFO: [Synth 8-256] done synthesizing module 'axi_dwidth_converter_v2_1_13_top' (26#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/3bde/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14450]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_auto_ds_0' (27#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_auto_ds_0/synth/PCIe_auto_ds_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 502.066 ; gain = 214.688
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 502.066 ; gain = 214.688
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 736.699 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 736.699 ; gain = 449.320
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 736.699 ; gain = 449.320
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:19 ; elapsed = 00:01:21 . Memory (MB): peak = 736.699 ; gain = 449.320
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:20 ; elapsed = 00:01:22 . Memory (MB): peak = 736.699 ; gain = 449.320
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:01:26 . Memory (MB): peak = 736.699 ; gain = 449.320
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|Module Name                                                                                                                         | RTL Object                                                                    | Inference      | Size (Depth x Width) | Primitives   | 
++------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+|inst/\gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst  | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 9               | RAM32M x 2   | 
+|inst/\gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst                  | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 29              | RAM32M x 5   | 
+|inst/\gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst                    | inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 32 x 29              | RAM32M x 5   | 
++------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:32 ; elapsed = 00:01:34 . Memory (MB): peak = 736.699 ; gain = 449.320
+Finished Timing Optimization : Time (s): cpu = 00:01:35 ; elapsed = 00:01:37 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Technology Mapping : Time (s): cpu = 00:01:36 ; elapsed = 00:01:38 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished IO Insertion : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    34|
+|2     |LUT1   |    23|
+|3     |LUT2   |    93|
+|4     |LUT3   |    76|
+|5     |LUT4   |    95|
+|6     |LUT5   |   233|
+|7     |LUT6   |   468|
+|8     |RAM32M |    12|
+|9     |FDCE   |    69|
+|10    |FDPE   |    63|
+|11    |FDRE   |   929|
+|12    |FDSE   |     5|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 814.969 ; gain = 527.590
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 814.969 ; gain = 534.227

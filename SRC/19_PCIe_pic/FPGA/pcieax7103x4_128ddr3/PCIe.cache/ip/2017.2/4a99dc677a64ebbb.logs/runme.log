@@ -1,0 +1,44 @@
+
+*** Running vivado
+    with args -log PCIe_util_ds_buf_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_util_ds_buf_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_util_ds_buf_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 363.473 ; gain = 81.031
+INFO: [Synth 8-638] synthesizing module 'PCIe_util_ds_buf_0_0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/synth/PCIe_util_ds_buf_0_0.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'util_ds_buf' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/1e84/hdl/vhdl/util_ds_buf.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'util_ds_buf' (1#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/1e84/hdl/vhdl/util_ds_buf.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_util_ds_buf_0_0' (2#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_util_ds_buf_0_0/synth/PCIe_util_ds_buf_0_0.vhd:68]
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 403.551 ; gain = 121.109
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 403.551 ; gain = 121.109
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 626.230 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 626.230 ; gain = 343.789
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 626.230 ; gain = 343.789
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 626.230 ; gain = 343.789
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 626.230 ; gain = 343.789
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 626.230 ; gain = 343.789
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 648.543 ; gain = 366.102
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 648.543 ; gain = 366.102
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |IBUFDS_GTE2 |     1|
+|2     |IBUF        |     2|
++------+------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 658.688 ; gain = 376.246
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 672.211 ; gain = 392.398

@@ -1,0 +1,75 @@
+
+*** Running vivado
+    with args -log PCIe_axi_bram_ctrl_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_axi_bram_ctrl_0_2.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_axi_bram_ctrl_0_2.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 364.473 ; gain = 81.719
+INFO: [Synth 8-638] synthesizing module 'PCIe_axi_bram_ctrl_0_2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_axi_bram_ctrl_0_2/synth/PCIe_axi_bram_ctrl_0_2.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:23897]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:22901]
+INFO: [Synth 8-638] synthesizing module 'full_axi' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:21844]
+INFO: [Synth 8-638] synthesizing module 'wr_chnl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:17009]
+INFO: [Synth 8-638] synthesizing module 'wrap_brst' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:10215]
+INFO: [Synth 8-256] done synthesizing module 'wrap_brst' (1#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:10215]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'FDR' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3951]
+INFO: [Synth 8-256] done synthesizing module 'FDR' (2#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3951]
+INFO: [Synth 8-638] synthesizing module 'MUXCY_L' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21638]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY_L' (3#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21638]
+INFO: [Synth 8-638] synthesizing module 'XORCY' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45685]
+INFO: [Synth 8-256] done synthesizing module 'XORCY' (4#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45685]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (5#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43673]
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (6#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43673]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (7#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'wr_chnl' (8#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:17009]
+INFO: [Synth 8-638] synthesizing module 'rd_chnl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:11495]
+INFO: [Synth 8-256] done synthesizing module 'rd_chnl' (9#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:11495]
+INFO: [Synth 8-256] done synthesizing module 'full_axi' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:21844]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (11#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:22901]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/9183/hdl/axi_bram_ctrl_v4_0_rfs.vhd:23897]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_axi_bram_ctrl_0_2' (13#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_axi_bram_ctrl_0_2/synth/PCIe_axi_bram_ctrl_0_2.vhd:115]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 487.578 ; gain = 204.824
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 487.578 ; gain = 204.824
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 727.410 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 727.410 ; gain = 444.656
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |     2|
+|2     |LUT2    |    24|
+|3     |LUT3    |   169|
+|4     |LUT4    |    44|
+|5     |LUT5    |    60|
+|6     |LUT6    |   134|
+|7     |MUXCY_L |     3|
+|8     |SRL16E  |     5|
+|9     |XORCY   |     4|
+|10    |FDR     |     1|
+|11    |FDRE    |   591|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 741.797 ; gain = 459.043
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 741.797 ; gain = 461.672

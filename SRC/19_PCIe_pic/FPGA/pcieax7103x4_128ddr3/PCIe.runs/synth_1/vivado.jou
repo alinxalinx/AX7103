@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Aug 11 15:29:23 2017
+# Process ID: 8720
+# Current directory: D:/exam_ise/pcieddr3/PCIe.runs/synth_1
+# Command line: vivado.exe -log PCIe_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_wrapper.tcl
+# Log file: D:/exam_ise/pcieddr3/PCIe.runs/synth_1/PCIe_wrapper.vds
+# Journal file: D:/exam_ise/pcieddr3/PCIe.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PCIe_wrapper.tcl -notrace

@@ -1,0 +1,133 @@
+
+*** Running vivado
+    with args -log PCIe_xbar_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_xbar_1.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_xbar_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 377.980 ; gain = 83.148
+INFO: [Synth 8-638] synthesizing module 'PCIe_xbar_1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xbar_1/synth/PCIe_xbar_1.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_crossbar' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_si_transactor' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' (3#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (4#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl' (5#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo' (6#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_arbiter_resp' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1025]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_arbiter_resp' (7#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1025]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (8#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_si_transactor' (9#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (9#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized0' (9#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_wdata_router' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl__parameterized0' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo' (11#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_wdata_router' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_ndeep_srl__parameterized1' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1135]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized0' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized1' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_si_transactor__parameterized2' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3798]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_wdata_router__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized0' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_wdata_router__parameterized0' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4734]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_decoder__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_decoder__parameterized0' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized1' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_wdata_mux' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized1' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_wdata_mux' (13#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (14#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' (15#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized0' (15#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized1' (15#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice__parameterized2' (15#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (16#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axi_register_slice' (17#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_srl_fifo__parameterized2' (17#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:698]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_wdata_mux__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axic_reg_srl_fifo__parameterized2' (17#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:889]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_wdata_mux__parameterized0' (17#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4559]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' (18#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (18#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (18#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter' (19#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:423]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_crossbar' (20#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:2239]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' (21#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xbar_1' (22#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xbar_1/synth/PCIe_xbar_1.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 537.160 ; gain = 242.328
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 537.160 ; gain = 242.328
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.265 . Memory (MB): peak = 808.242 ; gain = 0.945
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |    47|
+|2     |LUT2    |   294|
+|3     |LUT3    |   542|
+|4     |LUT4    |   135|
+|5     |LUT5    |   170|
+|6     |LUT6    |   325|
+|7     |SRLC32E |     4|
+|8     |FDRE    |   934|
+|9     |FDSE    |    20|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 808.242 ; gain = 513.410
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 808.242 ; gain = 517.039

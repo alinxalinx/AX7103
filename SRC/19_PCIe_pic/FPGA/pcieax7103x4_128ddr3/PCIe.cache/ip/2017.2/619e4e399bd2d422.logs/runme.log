@@ -1,0 +1,438 @@
+
+*** Running vivado
+    with args -log PCIe_xdma_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCIe_xdma_0_1.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source PCIe_xdma_0_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 448.230 ; gain = 101.973
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/synth/PCIe_xdma_0_1.v:66]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_core_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_core_top.sv:60]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_axis_rq_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_rq_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_axis_rq_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_rq_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_axis_cc_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_cc_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_axis_cc_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_cc_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_axis_rc_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_rc_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_axis_rc_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_rc_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_axis_cq_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_cq_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_axis_cq_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_axis_cq_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_misc_output_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_misc_output_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_misc_output_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_misc_output_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_misc_input_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_misc_input_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_misc_input_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_misc_input_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_gic_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_gic_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_gic_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_gic_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_fabric_output_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_fabric_output_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_fabric_output_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_fabric_output_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_fabric_input_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_fabric_input_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_fabric_input_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_fabric_input_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_4Bx2048_4Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_4Bx2048_4Bwe_ram_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_4Bx2048_4Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_4Bx2048_4Bwe_ram_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_16Bx2048_4Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_16Bx2048_4Bwe_ram_if.svh:5]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_16Bx2048_4Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_16Bx2048_4Bwe_ram_if.svh:5]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_2Bx2048_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_2Bx2048_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_2Bx2048_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_2Bx2048_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_8Bx2048_4Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_8Bx2048_4Bwe_ram_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_8Bx2048_4Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_8Bx2048_4Bwe_ram_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpli_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpli_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpli_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpli_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpli_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpli_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpli_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpli_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpli_if.svh:4]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_dsc_in_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_dsc_in_if.svh:5]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_dsc_in_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_dsc_in_if.svh:5]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_dsc_out_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_dsc_out_if.svh:5]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_dsc_out_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_dsc_out_if.svh:5]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx512_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx512_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_64Bx256_32Bwe_ram_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_64Bx256_32Bwe_ram_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'dma_pcie_mi_dsc_cpld_if' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-256] done synthesizing module 'dma_pcie_mi_dsc_cpld_if' (0#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/dma_pcie_mi_dsc_cpld_if.svh:3]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOAsync' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOAsync' (1#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+AWrite Node size: 9, nWords: 1, wSize: 9, memSize: 9
+ARead Node size: 9, nWords: 1, wSize: 9, memSize: 9
+AWrite Node size: 8, nWords: 1, wSize: 8, memSize: 8
+ARead Node size: 8, nWords: 1, wSize: 8, memSize: 8
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOAsync__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOAsync__parameterized0' (6#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead' (7#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO' (8#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+ARead Node size: 16, nWords: 1, wSize: 16, memSize: 16
+AWrite Node size: 16, nWords: 1, wSize: 16, memSize: 16
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOAsync__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOAsync__parameterized1' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:571]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized0' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized0' (10#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized1' (11#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized2' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized3' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead__parameterized3' (12#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:739]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized1' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized1' (23#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized2' (23#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFOHead2' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:927]
+ARead Node size: 193, nWords: 1, wSize: 193, memSize: 193
+AWrite Node size: 193, nWords: 1, wSize: 193, memSize: 193
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFOHead2' (24#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:927]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized3' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized3' (30#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized4' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_GenericFIFO__parameterized4' (30#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ipshared/bcea/hdl/verilog/axidma_fifo.vh:279]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single' (35#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_dma_bram_wrap' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_blk_mem_64_reg_be' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_1/synth/xdma_v3_1_1_blk_mem_64_reg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_blk_mem_64_reg_be' (48#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_1/synth/xdma_v3_1_1_blk_mem_64_reg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_dma_bram_wrap' (49#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_dma_bram_wrap__parameterized0' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'xdma_v3_1_1_blk_mem_64_noreg_be' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_2/synth/xdma_v3_1_1_blk_mem_64_noreg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_blk_mem_64_noreg_be' (50#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_2/synth/xdma_v3_1_1_blk_mem_64_noreg_be.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'xdma_v3_1_1_dma_bram_wrap__parameterized0' (50#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_bram_wrap.sv:63]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_to_pcie3_wrapper' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper.sv:58]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_axi_stream_intf' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_axi_stream_intf.sv:58]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_rx_demux' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_rx_demux.sv:78]
+INFO: [Synth 8-638] synthesizing module 'pcie2_fifo_generator_dma_cpl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_3/synth/pcie2_fifo_generator_dma_cpl.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'pcie2_fifo_generator_dma_cpl' (70#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_3/synth/pcie2_fifo_generator_dma_cpl.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'pcie2_fifo_generator_tgt_brdg' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_4/synth/pcie2_fifo_generator_tgt_brdg.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'pcie2_fifo_generator_tgt_brdg' (72#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_4/synth/pcie2_fifo_generator_tgt_brdg.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_rx_destraddler' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v2_0/hdl/verilog/PCIe_xdma_0_1_rx_destraddler.sv:79]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_rx_destraddler' (73#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v2_0/hdl/verilog/PCIe_xdma_0_1_rx_destraddler.sv:79]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_rx_demux' (74#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_rx_demux.sv:78]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_tx_mux' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tx_mux.sv:77]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_tx_mux' (75#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tx_mux.sv:77]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_dma_req' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_req.sv:76]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_dma_req' (76#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_req.sv:76]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_dma_cpl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_cpl.sv:76]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_dma_cpl' (77#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_dma_cpl.sv:76]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_tgt_req' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tgt_req.sv:76]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_tgt_req' (78#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tgt_req.sv:76]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_tgt_cpl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tgt_cpl.sv:77]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_tgt_cpl' (79#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_tgt_cpl.sv:77]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_axi_stream_intf' (80#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_axi_stream_intf.sv:58]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_cfg_sideband' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_cfg_sideband.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_cfg_sideband' (81#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_cfg_sideband.sv:58]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/synth/PCIe_xdma_0_1_pcie2_ip.v:66]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie2_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie2_top.v:59]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_core_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_core_top.v:65]
+INFO: [Synth 8-638] synthesizing module 'xpm_cdc_single__parameterized0' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-256] done synthesizing module 'xpm_cdc_single__parameterized0' (81#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:99]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_pipeline' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_pipeline' (82#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_pipeline.v:70]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_null_gen' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_null_gen' (83#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx_null_gen.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_rx' (84#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_rx.v:70]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx.v:70]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_thrtl_ctl' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_thrtl_ctl' (85#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_thrtl_ctl.v:71]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_pipeline' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_pipeline' (86#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx_pipeline.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_tx' (87#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_tx.v:70]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_axi_basic_top' (88#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_axi_basic_top.v:68]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_7x' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_bram_top_7x' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_brams_7x' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_brams_7x.v:65]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_bram_7x' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_bram_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'BRAM_TDP_MACRO' [C:/Xilinx/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E1' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E1' (89#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'BRAM_TDP_MACRO' (90#1) [C:/Xilinx/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_bram_7x' (91#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_bram_7x.v:63]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_brams_7x' (92#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_brams_7x.v:65]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_bram_top_7x' (93#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_bram_top_7x.v:72]
+INFO: [Synth 8-638] synthesizing module 'PCIE_2_1' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'PCIE_2_1' (94#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_7x' (95#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_7x.v:63]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_pipeline' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_lane' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_lane.v:63]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_lane' (96#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_lane.v:63]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_misc' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_misc' (97#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_misc.v:63]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_pipe_pipeline' (98#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_pipe_pipeline.v:63]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie_top' (99#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_top' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_top.v:62]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_rx_valid_filter_7x' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_rx_valid_filter_7x' (100#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_rx_valid_filter_7x.v:62]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_wrapper' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_wrapper.v:156]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_clock' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_clock.v:67]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (101#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BUFGCTRL' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+INFO: [Synth 8-256] done synthesizing module 'BUFGCTRL' (102#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (103#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_clock' (104#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_clock.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_reset' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_reset.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_reset' (105#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_reset.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_reset' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_reset.v:66]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_reset' (106#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_reset.v:66]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_rate' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_rate.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_rate' (107#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_rate.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_drp' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_drp.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_pipe_drp' (108#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_pipe_drp.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_eq' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_rxeq_scan' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_rxeq_scan' (109#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_rxeq_scan.v:66]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_eq' (110#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_eq.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_common' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_drp' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_drp.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_drp' (111#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_drp.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_wrapper' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTPE2_COMMON' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9987]
+INFO: [Synth 8-256] done synthesizing module 'GTPE2_COMMON' (112#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9987]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_cpllpd_ovrd' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtp_cpllpd_ovrd' (113#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtp_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_qpll_wrapper' (114#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_qpll_wrapper.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_common' (115#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_common.v:56]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_user' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_user.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_user' (116#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_user.v:67]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_sync' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_sync.v:71]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_sync' (117#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_sync.v:71]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_wrapper' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_wrapper.v:67]
+INFO: [Synth 8-638] synthesizing module 'GTPE2_CHANNEL' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9285]
+INFO: [Synth 8-256] done synthesizing module 'GTPE2_CHANNEL' (118#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9285]
+INFO: [Synth 8-638] synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtx_cpllpd_ovrd' [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gtx_cpllpd_ovrd' (119#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gtx_cpllpd_ovrd.v:54]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_wrapper' (120#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_wrapper.v:67]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pipe_wrapper' (121#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pipe_wrapper.v:156]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_gt_top' (122#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_gt_top.v:62]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_core_top' (123#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_core_top.v:65]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip_pcie2_top' (124#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/source/PCIe_xdma_0_1_pcie2_ip_pcie2_top.v:59]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_ip' (125#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/ip_0/synth/PCIe_xdma_0_1_pcie2_ip.v:66]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_pcie2_to_pcie3_wrapper' (126#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_pcie2_to_pcie3_wrapper.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1_core_top' (127#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/xdma_v3_1/hdl/verilog/PCIe_xdma_0_1_core_top.sv:60]
+INFO: [Synth 8-256] done synthesizing module 'PCIe_xdma_0_1' (128#1) [d:/exam_ise/pcie/PCIe.srcs/sources_1/bd/PCIe/ip/PCIe_xdma_0_1/synth/PCIe_xdma_0_1.v:66]
+Finished RTL Elaboration : Time (s): cpu = 00:02:09 ; elapsed = 00:02:10 . Memory (MB): peak = 880.523 ; gain = 534.266
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:11 ; elapsed = 00:02:13 . Memory (MB): peak = 880.523 ; gain = 534.266
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.145 . Memory (MB): peak = 1253.023 ; gain = 1.000
+Finished Constraint Validation : Time (s): cpu = 00:02:46 ; elapsed = 00:02:46 . Memory (MB): peak = 1253.023 ; gain = 906.766
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:07 ; elapsed = 00:03:07 . Memory (MB): peak = 1253.023 ; gain = 906.766
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:56 ; elapsed = 00:04:07 . Memory (MB): peak = 1253.023 ; gain = 906.766
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                       | RTL Object                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xdma_v3_1_1_vul_rdwr_eng:                         | rrq_wadr_nn1_reg             | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_1_1_vul_rdwr_eng:                         | rrq_dadr_nn1_reg             | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_1_1_vul_rdwr_eng__parameterized0:         | rrq_wadr_nn1_reg             | 32 x 64(READ_FIRST)    | W |   | 32 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_1_1_mem_simple_dport_ram:                 | the_bram_reg                 | 8 x 208(READ_FIRST)    | W |   | 8 x 208(WRITE_FIRST)   |   | R | Port A and B     | 0      | 3      | 
+|xdma_v3_1_1_udma_msix:                            | msix_ram_gen[1].msix_ram_reg | 128 x 32(READ_FIRST)   | W | R | 128 x 32(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized0: | the_bram_reg                 | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized1: | the_bram_reg                 | 512 x 16(READ_FIRST)   | W |   | 512 x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized2: | the_bram_reg                 | 256 x 80(READ_FIRST)   | W |   | 256 x 80(WRITE_FIRST)  |   | R | Port A and B     | 1      | 1      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized3: | the_bram_reg                 | 256 x 128(READ_FIRST)  | W |   | 256 x 128(WRITE_FIRST) |   | R | Port A and B     | 0      | 2      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized4: | the_bram_reg                 | 1 K x 80(READ_FIRST)   | W |   | 1 K x 80(WRITE_FIRST)  |   | R | Port A and B     | 1      | 2      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized5: | the_bram_reg                 | 1 K x 128(READ_FIRST)  | W |   | 1 K x 128(WRITE_FIRST) |   | R | Port A and B     | 0      | 4      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized6: | the_bram_reg                 | 64 x 80(READ_FIRST)    | W |   | 64 x 80(WRITE_FIRST)   |   | R | Port A and B     | 1      | 1      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized7: | the_bram_reg                 | 64 x 128(READ_FIRST)   | W |   | 64 x 128(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized6: | the_bram_reg                 | 64 x 80(READ_FIRST)    | W |   | 64 x 80(WRITE_FIRST)   |   | R | Port A and B     | 1      | 1      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized7: | the_bram_reg                 | 64 x 128(READ_FIRST)   | W |   | 64 x 128(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized0: | the_bram_reg                 | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized0: | the_bram_reg                 | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized0: | the_bram_reg                 | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|xdma_v3_1_1_mem_simple_dport_ram__parameterized0: | the_bram_reg                 | 512 x 32(READ_FIRST)   | W |   | 512 x 32(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++--------------------------------------------------+------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|Module Name                                                                                                             | RTL Object                                                                               | Inference      | Size (Depth x Width) | Primitives      | 
++------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+|\dsc_eng.DSC /RRQ_FIFO                                                                                                  | MemArray_reg                                                                             | User Attribute | 4 x 121              | RAM32M x 21     | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /DSC_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 8 x 159              | RAM32M x 27     | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /WRQ_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 4 x 112              | RAM32M x 19     | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /RRQ_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 4 x 121              | RAM32M x 21     | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rcp_rcv_lba_101_reg                                                                      | Implied        | 16 x 4               | RAM32M x 1      | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_len_nn1_reg                                                                          | Implied        | 16 x 13              | RAM32M x 3      | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_wfba_nn1_reg                                                                         | Implied        | 16 x 4               | RAM32M x 1      | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rcp_rcv_amt_101_reg                                                                      | Implied        | 16 x 10              | RAM16X1D x 10   | 
+|\WR/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_bt_len_nn1_reg                                                                       | Implied        | 16 x 10              | RAM32M x 2      | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /DSC_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 8 x 159              | RAM32M x 27     | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /WRQ_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 4 x 112              | RAM32M x 19     | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST /RRQ_FIFO                                                                   | MemArray_reg                                                                             | User Attribute | 4 x 121              | RAM32M x 21     | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rcp_rcv_amt_101_reg                                                                      | Implied        | 32 x 10              | RAM32X1D x 10   | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rcp_rcv_lba_101_reg                                                                      | Implied        | 32 x 4               | RAM32M x 1      | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_len_nn1_reg                                                                          | Implied        | 32 x 13              | RAM32M x 3      | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_wfba_nn1_reg                                                                         | Implied        | 32 x 4               | RAM32M x 1      | 
+|\RD/gen_rdwr_loop[0].gen_rdwr_eng.RDWR_INST                                                                             | rrq_bt_len_nn1_reg                                                                       | Implied        | 32 x 10              | RAM32M x 2      | 
+|xdma_v3_1_1_dma_pcie_req__GB0                                                                                           | TAG_FIFO_EVEN/MemArray_reg                                                               | User Attribute | 32 x 5               | RAM32M x 1      | 
+|xdma_v3_1_1_dma_pcie_req__GB0                                                                                           | TAG_FIFO_ODD/MemArray_reg                                                                | User Attribute | 32 x 5               | RAM32M x 1      | 
+|xdma_v3_1_1_dma_pcie_req__GB0                                                                                           | axidma_rrq_arb/Fifowhead.fifoInfo/MemArray_reg                                           | User Attribute | 4 x 122              | RAM32M x 21     | 
+|dma_pcie_rq/WTLP_DAT_FIFO                                                                                               | MemArray_reg                                                                             | User Attribute | 8 x 144              | RAM32M x 24     | 
+|dma_pcie_rq/WTLP_HDR_FIFO                                                                                               | MemArray_reg                                                                             | User Attribute | 8 x 103              | RAM32M x 18     | 
+|dma_pcie_rq                                                                                                             | wcp_chn_q_reg                                                                            | Implied        | 16 x 1               | RAM16X1D x 1    | 
+|dma_pcie_rq                                                                                                             | wcp_eor_q_reg                                                                            | Implied        | 16 x 1               | RAM16X1D x 1    | 
+|dma_pcie_rq                                                                                                             | wcp_rid_q_reg                                                                            | Implied        | 16 x 8               | RAM32M x 2      | 
+|dma_pcie_rc/u_dma_rc_mem_pfch                                                                                           | genblk_buf_dist_ram.pfch_dt_buf_reg                                                      | User Attribute | 4 x 208              | RAM32M x 35     | 
+|dma_pcie_rc                                                                                                             | tag_rrq_chn_info_mem_odd_reg                                                             | Implied        | 32 x 18              | RAM32M x 3      | 
+|dma_pcie_rc                                                                                                             | tag_rrq_chn_info_mem_even_reg                                                            | Implied        | 32 x 18              | RAM32M x 3      | 
+|dma_pcie_rc                                                                                                             | tag_did_conti_val_reg                                                                    | Implied        | 64 x 9               | RAM64X1S x 9    | 
+|xdma_v3_1_1_dma_pcie_req__GB1                                                                                           | axidma_wrq_arb/Fifowhead.fifoInfo/MemArray_reg                                           | User Attribute | 4 x 113              | RAM32M x 19     | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlplengthq_reg        | Implied        | 8 x 10               | RAM32M x 2      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpfbeq_reg           | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpaddrretlq_reg      | Implied        | 8 x 12               | RAM32M x 2      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpstatuscodeq_reg    | User Attribute | 8 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlplbeq_reg           | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlplengthmsbq_reg     | Implied        | 8 x 1                | RAM16X1D x 1    | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpreqidq_reg         | Implied        | 8 x 16               | RAM32M x 3      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlptagq_reg           | Implied        | 8 x 8                | RAM32M x 2      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpfuncq_reg          | Implied        | 8 x 8                | RAM32M x 2      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlptcq_reg            | Implied        | 8 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst                                                                                                  | axi4mm_axi_mm_master_top_inst/axi4mm_axi_str_masterbr_rdtlp_inst/rdtlpattrq_reg          | Implied        | 8 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awdwlenq_reg                                                                       | Implied        | 8 x 10               | RAM32M x 2      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_bardecq_reg                                                                        | Implied        | 8 x 2                | RAM16X1D x 4    | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awaddrq_reg                                                                        | Implied        | 8 x 64               | RAM32M x 11     | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_funcq_reg                                                                          | Implied        | 8 x 8                | RAM32M x 2      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awsizeq_reg                                                                        | Implied        | 8 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awprotq_reg                                                                        | Implied        | 8 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awcacheq_reg                                                                       | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awfirstdwbestq_reg                                                                 | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awlastdwbestq_reg                                                                  | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awdwlenstq_reg                                                                     | Implied        | 8 x 8                | RAM32M x 2      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awaddrlststq_reg                                                                   | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_wr_inst                                      | m_axi_awaddrstq_reg                                                                      | Implied        | 8 x 4                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_bardecq_reg                                                                        | Implied        | 2 x 2                | RAM16X1D x 4    | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_ardwlenissueq_reg                                                                  | User Attribute | 2 x 10               | RAM32M x 2      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_araddrissueq_reg                                                                   | User Attribute | 2 x 64               | RAM32M x 11     | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_funcq_reg                                                                          | User Attribute | 2 x 8                | RAM32M x 2      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_arsizeissueq_reg                                                                   | User Attribute | 2 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_arprotissueq_reg                                                                   | User Attribute | 2 x 3                | RAM32M x 1      | 
+|axi4mm_bridge_top_inst/\axi4mm_axi_mm_master_top_inst/axi4mm_axi_mm_master_rd                                           | m_axi_arcacheissueq_reg                                                                  | User Attribute | 2 x 4                | RAM32M x 1      | 
+|base                                                                                                                    | usr_axilt_slv/REQ_FIFO/MemArray_reg                                                      | User Attribute | 4 x 41               | RAM32M x 7      | 
+|base                                                                                                                    | cq_axilt_slv/REQ_FIFO/MemArray_reg                                                       | User Attribute | 4 x 41               | RAM32M x 7      | 
+|base                                                                                                                    | usr_axilt_slv/DAT_FIFO/MemArray_reg                                                      | User Attribute | 4 x 36               | RAM32M x 6      | 
+|base                                                                                                                    | cq_axilt_slv/DAT_FIFO/MemArray_reg                                                       | User Attribute | 4 x 36               | RAM32M x 6      | 
+|\dma_enable.wb_eng.dma_pcie_wb_eng                                                                                      | axidma_wb_arb/Fifowhead.fifoInfo/MemArray_reg                                            | User Attribute | 4 x 33               | RAM32M x 6      | 
+|\dma_enable.wb_eng.dma_pcie_wb_eng                                                                                      | WB_CHNL_FIFO/MemArray_reg                                                                | User Attribute | 4 x 1                | RAM16X1D x 1    | 
+|\dma_enable.wb_eng.dma_pcie_wb_eng                                                                                      | WB_DAT_FIFO/MemArray_reg                                                                 | User Attribute | 4 x 32               | RAM32M x 6      | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/rdDataBuf_ff_reg                                                 | Implied        | 8 x 128              | RAM32M x 24     | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr/WPL_FIFO                                                           | MemArray_reg                                                                             | User Attribute | 16 x 35              | RAM32M x 6      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr/WTLP_DAT_FIFO                                                      | MemArray_reg                                                                             | User Attribute | 8 x 144              | RAM32M x 24     | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_awlenq_reg                                                                         | Implied        | 16 x 8               | RAM32M x 2      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | wrrsp_ChnlIdq_reg                                                                        | User Attribute | 16 x 1               | RAM32M x 2      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_awaddrq_reg                                                                        | User Attribute | 16 x 64              | RAM32M x 11     | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_ChnlIdq_reg                                                                        | User Attribute | 16 x 1               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_awsizeq_reg                                                                        | User Attribute | 16 x 3               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_awprotq_reg                                                                        | User Attribute | 16 x 3               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_wlenq_reg                                                                          | Implied        | 16 x 8               | RAM32M x 2      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_waddrlastq_reg                                                                     | User Attribute | 16 x 6               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm /axi4mm_axi_mm_master_wr                                                                    | m_axi_waddrfirstq_reg                                                                    | User Attribute | 16 x 6               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axidma_rrq_arb/Fifowhead.fifoInfo/MemArray_reg                                           | User Attribute | 4 x 122              | RAM32M x 21     | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/rrsp_ChnlIdq_reg                                                 | User Attribute | 16 x 1               | RAM16X1D x 1    | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/m_axi_archnlIdIssueq_reg                                         | User Attribute | 16 x 1               | RAM16X1D x 1    | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/m_axi_araddrissueq_reg                                           | User Attribute | 16 x 64              | RAM32M x 11     | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/m_axi_arlenissueq_reg                                            | User Attribute | 16 x 8               | RAM32M x 2      | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/m_axi_arsizeissueq_reg                                           | User Attribute | 16 x 3               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axi4mm_axi_mm_master_rd/m_axi_arprotissueq_reg                                           | User Attribute | 16 x 3               | RAM32M x 1      | 
+|\dma_enable.aximm.dma_aximm                                                                                             | axidma_wrq_arb/Fifowhead.fifoInfo/MemArray_reg                                           | User Attribute | 4 x 113              | RAM32M x 19     | 
+|\PCIe_xdma_0_1_pcie2_to_pcie3_wrapper_i/PCIe_xdma_0_1_axi_stream_intf_i /PCIe_xdma_0_1_rx_demux_i/tgt_brdg_fifo_inst/U0 | inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm_gen.dm/RAM_reg | User Attribute | 16 x 167             | RAM32M x 28     | 
++------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+----------------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:06 ; elapsed = 00:04:17 . Memory (MB): peak = 1350.410 ; gain = 1004.152
+Finished Timing Optimization : Time (s): cpu = 00:04:25 ; elapsed = 00:04:36 . Memory (MB): peak = 1424.164 ; gain = 1077.906
+Finished Technology Mapping : Time (s): cpu = 00:04:36 ; elapsed = 00:04:46 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished IO Insertion : Time (s): cpu = 00:04:44 ; elapsed = 00:04:55 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:45 ; elapsed = 00:04:55 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:51 ; elapsed = 00:05:02 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:51 ; elapsed = 00:05:02 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:53 ; elapsed = 00:05:03 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:53 ; elapsed = 00:05:03 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     5|
+|2     |BUFGCTRL      |     1|
+|3     |CARRY4        |   527|
+|4     |GTPE2_CHANNEL |     4|
+|5     |GTPE2_COMMON  |     1|
+|6     |LUT1          |  1292|
+|7     |LUT2          |  1668|
+|8     |LUT3          |  3920|
+|9     |LUT4          |  2788|
+|10    |LUT5          |  3422|
+|11    |LUT6          |  6047|
+|12    |MMCME2_ADV    |     1|
+|13    |MUXF7         |   150|
+|14    |PCIE_2_1      |     1|
+|15    |RAM16X1D      |    22|
+|16    |RAM32M        |   497|
+|17    |RAM32X1D      |    10|
+|18    |RAM64X1S      |     9|
+|19    |RAMB18E1_2    |     1|
+|20    |RAMB36E1      |     5|
+|21    |RAMB36E1_1    |     1|
+|22    |RAMB36E1_2    |    16|
+|23    |RAMB36E1_3    |     6|
+|24    |RAMB36E1_4    |     8|
+|25    |RAMB36E1_5    |     4|
+|26    |SRL16E        |     8|
+|27    |SRLC32E       |     7|
+|28    |FDCE          |    61|
+|29    |FDPE          |    74|
+|30    |FDRE          | 18343|
+|31    |FDSE          |   156|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:53 ; elapsed = 00:05:03 . Memory (MB): peak = 1425.203 ; gain = 1078.945
+synth_design: Time (s): cpu = 00:05:12 ; elapsed = 00:05:23 . Memory (MB): peak = 1667.344 ; gain = 1321.086
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1667.344 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1667.344 ; gain = 0.000
